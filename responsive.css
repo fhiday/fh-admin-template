@@ -1,0 +1,43 @@
+@media (max-width: 575.98px){
+    body {
+        background: #F4F2DE;
+    }
+
+    #login .card {
+        border-radius: 5px;
+        background: #F4F2DE;
+        border: none;
+    }
+
+    #left-nav{
+       display: none;
+    }
+
+    #content-layout{
+        width: 100vw;
+        margin-left: auto;
+        padding-top: 85px;
+    }
+
+    #layout .navbar{
+        background: #F4F2DE;
+        height: 60px;
+        position: fixed;
+        width: 100vw;
+        z-index: 999;
+    }
+
+    #layout .navbar img{
+        margin-left: 20px;
+    }
+
+    #layout .navbar .account{
+        width: 30px;
+        height: 30px;
+    }
+
+    #layout .navbar .toggle-btn{
+        width: 14px;
+        height: 14px;
+    }
+}
